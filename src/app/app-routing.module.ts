@@ -9,7 +9,8 @@ const routes: Routes = [
     path: 'loans', component: LoansComponent
   },
   {
-    path: 'loans/add-loan', component: AddLoanComponent
+    path: 'add', component: AddLoanComponent,
+    outlet: 'addLoan'
   },
   {
     path: 'loan-types', component: LoanTypesComponent
